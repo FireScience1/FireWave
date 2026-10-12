@@ -1,0 +1,14 @@
+{
+  "task": "visibility",
+  "data_root": "../FDS_fire",
+  "entrypoint": "firewave.strict_visibility",
+  "history_frames": 16,
+  "future_frames": 32,
+  "split_seed": 1,
+  "strict_protected_min_span": 640,
+  "steps": 5000,
+  "validate_every": 250,
+  "batch_size": 1,
+  "normalization": "visibility encoding defined in firewave.visibility_encoding",
+  "notes": "FIT visibility task; do not use held-out/test windows for model selection."
+}

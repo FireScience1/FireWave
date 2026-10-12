@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.xlsx
+*.gif
+outputs/
+runs/
+checkpoints/

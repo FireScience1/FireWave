@@ -1,0 +1,14 @@
+{
+  "task": "temperature",
+  "data_root": "../FDS_fire",
+  "entrypoint": "firewave.temperature_prior",
+  "history_frames": 16,
+  "future_frames": 32,
+  "split_seed": 1,
+  "strict_protected_min_span": 640,
+  "temperature_powers": [0, 0.25, 0.5, 0.75, 1, 1.5, 2, 3],
+  "methods": ["linear", "pchip"],
+  "condition_degrees": [1, 2],
+  "normalization": "per-field global min-max to [0,1]",
+  "notes": "FIT temperature task; do not use held-out/test windows for model selection."
+}
