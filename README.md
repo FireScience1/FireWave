@@ -38,10 +38,10 @@ The code expects the FIT data directory to contain scenario folders such as
 visibility, and heat-release-rate data. See [data/README.md](data/README.md)
 for the expected layout.
 
-The raw FIT archive is approximately 4.2 GB and is not stored in the Git
-repository. Set `data_root` in a configuration file, or pass the data path
-through the command line, after placing the data in a local or HDFS-mounted
-directory.
+The raw FIT archive is approximately 4.2 GB and is tracked with Git LFS.
+Install Git LFS and run `git lfs pull` after cloning to materialize the data.
+Alternatively, set `data_root` in a configuration file or pass a local/HDFS
+data path through the command line.
 
 ## Model and evaluation entry points
 

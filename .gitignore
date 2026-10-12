@@ -12,3 +12,7 @@ __pycache__/
 outputs/
 runs/
 checkpoints/
+
+# The FIT archive under data/FDS_fire is intentionally tracked with Git LFS.
+!data/FDS_fire/
+!data/FDS_fire/**

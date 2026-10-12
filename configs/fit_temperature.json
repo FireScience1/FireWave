@@ -1,6 +1,6 @@
 {
   "task": "temperature",
-  "data_root": "../FDS_fire",
+  "data_root": "data/FDS_fire",
   "entrypoint": "firewave.temperature_prior",
   "history_frames": 16,
   "future_frames": 32,

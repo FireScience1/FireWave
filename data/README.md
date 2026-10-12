@@ -13,6 +13,6 @@ FDS_fire/
 `firewave.core.FITStore` 读取。默认配置中的 `data_root` 是
 `../FDS_fire`，也可以在运行时替换为绝对路径或 HDFS 挂载路径。
 
-原始 FIT 数据约 4.2 GB，因此不纳入普通 Git 提交；请从项目数据存储复制到
-本目录对应位置后再运行配置。仓库只保留数据布局和读取约定，避免把大文件或
-本地绝对路径提交到 GitHub。
+The complete FIT archive is tracked with Git LFS in this repository. A regular
+Git clone retrieves lightweight pointer files; install Git LFS and run
+`git lfs pull` to download the actual data before running the models.

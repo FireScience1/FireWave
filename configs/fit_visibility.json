@@ -1,6 +1,6 @@
 {
   "task": "visibility",
-  "data_root": "../FDS_fire",
+  "data_root": "data/FDS_fire",
   "entrypoint": "firewave.strict_visibility",
   "history_frames": 16,
   "future_frames": 32,
